@@ -44,7 +44,8 @@ if __name__ == '__main__':
                                   done)
             observation = observation_
             brain.learn()
-            env.render()
+            # uncomment to render while running
+            #env.render()
         scores.append(score)
 
     x = [i+1 for i in range(num_games)]
