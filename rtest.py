@@ -26,6 +26,7 @@ def basic_policy(obs):
 
 if __name__ == '__main__':
     day = 0.0
+    times = 200
     for episode in range(run_times):
         episode_reward = 0
         env.set_day(day)
@@ -39,6 +40,9 @@ if __name__ == '__main__':
         totals.append(episode_reward)
         day = round( day + 0.1, 1)
         if day > 0.7:
-            break
+            day = 0.0
+            times -= 1
+            if times == 0:
+                break
     plt.plot(totals)
     plt.show()
