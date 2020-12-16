@@ -23,7 +23,7 @@ eg: Trashing no burgers, making no customers wait
 - Only one kind is made each time
 - Burgers are trashed after 30 mintes on the shelf
 ### how to win maximum reward ?
-- There should be no customer waiting more 10 minutes to get his burger
+- There should be no customer waiting more than 10 minutes to get his burger
 - There sould be no trashed burgers
 
 ## Result
