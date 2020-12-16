@@ -18,7 +18,7 @@ eg: Trashing no burgers, making no customers wait
 ### Other rules :
 - During lunch they tend to order more bigmac
 - On hollydays they tend to order more specials
-### Bureger rules:
+### Burger rules:
 - The burger shop can make between 3 to 30 burgers each 10 minutes
 - Only one kind is made each time
 - Burgers are trashed after 30 mintes on the shelf
