@@ -7,7 +7,7 @@ eg: Trashing no burgers, making no customers wait
 ## The Game
 ![Rendered game](rendered.png)
 
-### Base :
+### Basics :
 - There is a random number of customers coming to a burger shop each 10 minutes
 - Each one order randomly one burger
 ### There is more customers if :
