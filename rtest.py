@@ -39,6 +39,6 @@ if __name__ == '__main__':
         totals.append(episode_reward)
         day = round( day + 0.1, 1)
         if day > 0.7:
-            day = 0.0
+            break
     plt.plot(totals)
     plt.show()
