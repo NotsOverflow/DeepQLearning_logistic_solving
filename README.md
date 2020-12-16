@@ -40,11 +40,11 @@ $ conda activate mcdo
 ```bash
 $ python ntest.py
 ```
-### Try to beat the agent :
+### Try to beat the agent knowing the rules :
 ```bash
 $ python htest.py
 ```
-### Run random choice maker :
+### See how random choices does :
 ```bash
 $ python rtest.py
 ```
