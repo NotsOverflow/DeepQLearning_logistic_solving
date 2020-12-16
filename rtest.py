@@ -35,7 +35,7 @@ if __name__ == '__main__':
             action = basic_policy(obs)
             obs, reward, done, info = env.step(action)
             episode_reward += reward
-            env.render()
+            #env.render()
         totals.append(episode_reward)
         day = round( day + 0.1, 1)
         if day > 0.7:
