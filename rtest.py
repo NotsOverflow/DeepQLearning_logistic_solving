@@ -17,7 +17,7 @@ import random
 import matplotlib.pyplot as plt
 
 totals = []
-run_times = 200
+run_times = 800
 env = MacDo()
 
 def basic_policy(obs):
